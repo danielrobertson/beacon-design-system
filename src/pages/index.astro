@@ -1,16 +1,33 @@
 ---
-
+import "@fontsource/patua-one";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/lighthouse.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Beacon Design System</title>
+  </head>
+  <body>
+    <h1 class="title">
+      <img src="/lighthouse.png" alt="lighthouse" /> Beacon Design System
+    </h1>
+  </body>
 </html>
+<style>
+  body {
+    font-family: "Patua One", sans-serif;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+    font-size: 3rem;
+    color: #1a1a1a;
+  }
+</style>
