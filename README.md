@@ -3,7 +3,7 @@
 # Beacon Design System
 A guiding light for exploration through design. 
 
-[Cierra Johnson]([url](https://cierra-johnson.com/)), designer  
-[Daniel Robertson]([url](https://danielrobertson.me/)https://danielrobertson.me/), software developer 
+[Cierra Johnson](https://cierra-johnson.com/), designer  
+[Daniel Robertson](https://danielrobertson.me), software developer 
 
 
