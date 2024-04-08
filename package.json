@@ -1,18 +1,21 @@
 {
   "name": "beacon-design-system",
-  "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Beacon Design System",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules"
   },
-  "dependencies": {
-    "@astrojs/check": "^0.4.1",
-    "@fontsource/patua-one": "^5.0.18",
-    "astro": "^4.1.1",
-    "typescript": "^5.3.3"
+  "author": "danielrobertson",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.13.2"
   }
 }
