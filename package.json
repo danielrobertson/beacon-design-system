@@ -1,6 +1,6 @@
 {
   "name": "beacon-design-system",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Beacon Design System",
   "main": "index.js",
   "scripts": {
